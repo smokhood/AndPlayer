@@ -7,6 +7,19 @@ AndPlayer is an accessible, user-friendly music player application built with Fl
 
 ---
 
+
+## 🎥 Demo Video
+
+[![AndPlayer Demo](https://img.youtube.com/vi/vZSAgY-68G0/maxresdefault.jpg)](https://youtube.com/shorts/vZSAgY-68G0)
+
+**[🎬 Watch on YouTube Shorts](https://youtube.com/shorts/vZSAgY-68G0)**
+
+See AndPlayer's music playback, playlist management, and accessible interface in action!
+
+
+---
+
+
 ## ✨ Key Features
 
 - 🎧 **Offline Audio Playback** - Play music stored locally on your device
