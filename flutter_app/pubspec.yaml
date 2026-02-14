@@ -1,0 +1,44 @@
+name: music_player_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.1
+  audioplayers: ^1.0.1
+  permission_handler: ^11.3.0
+  cupertino_icons: ^1.0.6
+  font_awesome_flutter: ^10.1.0
+  flutter_media_metadata: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bg2.jpeg
+    - assets/bg1.jpg
+    - assets/bg5.jpeg
+    - assets/bg6.jpeg
+    - assets/audio/✭ bando (sped up) ✭(MP3_160K).mp3
+    - assets/audio/Akon-Dangerous(MP3_160K).mp3
+    - assets/audio/Alfaazo - _MITRAZ _ Trending Song 2023 _ Big Bang Music(MP3_160K).mp3
+    - assets/audio/antent - hope to see you again(MP3_160K).mp3
+    - assets/audio/Bluetooth Era Mashup 2022 _ Yo Yo Honey Singh _ Imran Khan _ Bilal Saeed _ Falak _ Sunny Hassan(MP3_160K).mp3
+    - assets/audio/Clairo - Pretty Girl(MP3_320K).mp3
+    - assets/audio/Cochise - TRACK AFTER TRACK _snippet_ (EXTENDED EDIT) (Prod. _proddreamz _orchid.2k _ _1venny )(MP3_160K).mp3
+    - assets/audio/Drake - Knife Talk (Audio) ft. 21 Savage_ Project Pat(MP3_160K).mp3
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
