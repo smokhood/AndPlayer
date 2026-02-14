@@ -223,9 +223,74 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📱 Download
+- Email: ahtishamravian206@gmail.com
 
-Currently in development. Stay tuned for releases!
+---
+
+## 🙏 Acknowledgments
+
+- Flutter community for amazing packages
+- Material Design for UI guidelines
+- [just_audio](https://pub.dev/packages/just_audio) for audio playback engine
+- Open-source contributors
+
+---
+
+## 📥 Download & Install
+
+### Latest Release: v1.0.0
+
+<a href="https://github.com/smokhood/andplayer/releases/latest">
+  <img src="https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android" alt="Download APK"/>
+</a>
+
+[![GitHub release](https://img.shields.io/github/v/release/smokhood/andplayer)](https://github.com/smokhood/andplayer/releases)
+[![Downloads](https://img.shields.io/github/downloads/smokhood/andplayer/total)](https://github.com/smokhood/andplayer/releases)
+
+**[📱 Download AndPlayer v1.0.0 APK](https://github.com/smokhood/andplayer/releases/download/v1.0.0/andplayer-v1.0.0.apk)**
+
+Or visit the **[Releases page](https://github.com/smokhood/andplayer/releases)** for all versions.
+
+---
+
+### 📱 Installation Instructions
+
+1. **Download** the APK using the button above
+2. **Enable "Install from Unknown Sources"** on your device:
+   - Go to **Settings** → **Security** → Enable **"Unknown Sources"**
+   - Or **Settings** → **Apps** → **Special Access** → **Install Unknown Apps**
+3. **Open** the downloaded APK file from your notifications or Downloads folder
+4. **Tap "Install"** and wait for installation to complete
+5. **Open AndPlayer** and grant storage permission to access your music
+6. **Enjoy!** 🎵
+
+---
+
+### ⚙️ System Requirements
+
+- 📱 **Android:** 5.0 (Lollipop) or higher
+- 💾 **Storage:** ~30MB free space
+- 🔐 **Permissions:** Storage access (to scan and play music files)
+
+---
+
+### 🔒 Privacy & Security
+
+- ✅ **No internet required** - Fully offline app
+- ✅ **No data collection** - Your music stays on your device
+- ✅ **No ads or trackers** - Clean, private experience
+- ✅ **Open source** - Code is transparent and verifiable
+
+Storage permission is only used to access your local music files.
+
+---
+
+**⭐ If you enjoy AndPlayer, please give it a star!**
+
+---
+
+*Making music accessible, one play at a time* 🎵
+
 
 ---
 
