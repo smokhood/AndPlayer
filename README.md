@@ -1,2 +1,223 @@
-# AndPlayer
-Cool and accessible offline music player built with Flutter for seamless audio playback experience
+# AndPlayer - Accessible Music Player
+
+
+## 🎵 Overview
+
+AndPlayer is an accessible, user-friendly music player application built with Flutter, designed for seamless offline audio playback. With an intuitive interface optimized for ease of use, AndPlayer provides a smooth music listening experience with essential playback features and accessibility-first design.
+
+---
+
+## ✨ Key Features
+
+- 🎧 **Offline Audio Playback** - Play music stored locally on your device
+- 📁 **Automatic File Detection** - Scans and organizes audio files from device storage
+- 🎼 **Playlist Management** - Create, edit, and manage custom playlists
+- 🔀 **Shuffle & Repeat Modes** - Randomize playback or repeat your favorites
+- 📋 **Audio Queue Management** - View and manage upcoming tracks
+- 🎨 **Clean, Intuitive Interface** - Accessible design with easy navigation
+- 🔍 **Search & Filter** - Quickly find songs, artists, or albums
+- 💾 **Persistent Playback State** - Resumes where you left off
+- 🌓 **Theme Support** - Light and dark mode options
+- ♿ **Accessibility Optimized** - Large touch targets, screen reader compatible
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Framework:** Flutter (Dart)
+- **Audio Engine:** just_audio / audioplayers package
+- **State Management:** Provider / BLoC
+- **Local Storage:** SQLite for metadata and playlists
+- **File System:** path_provider for accessing device storage
+
+### Features
+- **Audio Processing:** Metadata extraction (ID3 tags)
+- **UI/UX:** Material Design, Custom animations
+- **Performance:** Background playback, efficient memory management
+
+---
+
+
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────┐
+│          Flutter UI Layer           │
+│   (Screens, Widgets, Animations)    │
+└────────────┬────────────────────────┘
+             │
+┌────────────▼────────────────────────┐
+│      Business Logic Layer           │
+│   (State Management, Controllers)   │
+└────────────┬────────────────────────┘
+             │
+┌────────────▼────────────────────────┐
+│       Data & Services Layer         │
+│  • Audio Player Service             │
+│  • File System Scanner              │
+│  • SQLite Database                  │
+│  • Metadata Parser                  │
+└─────────────���───────────────────────┘
+```
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Flutter SDK 3.0+
+- Android Studio / VS Code
+- Android device or emulator
+- Git
+
+### Setup Instructions
+
+```bash
+# Clone repository
+git clone https://github.com/smokhood/andplayer.git
+cd andplayer
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+### Supported Platforms
+- ✅ Android 5.0+ (API level 21+)
+- ✅ iOS 11.0+ (with minor adjustments)
+- ⏳ Web (future support)
+
+---
+
+## 🎮 How to Use
+
+### Getting Started
+1. **Launch AndPlayer** on your device
+2. **Grant Permissions** - Allow storage access to scan audio files
+3. **Wait for Scan** - App automatically detects and organizes music
+4. **Start Playing** - Tap any song to begin playback
+
+### Main Features
+
+#### 🎵 Music Library
+- Browse all songs, albums, and artists
+- Sort by name, date added, or duration
+- Search functionality for quick access
+
+#### 📋 Playlists
+- Create custom playlists
+- Add/remove songs easily
+- Reorder tracks with drag-and-drop
+
+#### 🎛️ Playback Controls
+- Play, pause, skip forward/backward
+- Seek to any position in the track
+- Shuffle and repeat modes
+- Volume control
+
+#### ⚙️ Settings
+- Adjust theme (light/dark)
+- Configure audio quality
+- Manage storage and cache
+- Accessibility options
+
+
+---
+
+## 🔧 Key Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Audio playback
+  just_audio: ^0.9.34
+  audio_service: ^0.18.10
+  
+  # State management
+  provider: ^6.0.5
+  
+  # Database
+  sqflite: ^2.2.8
+  path_provider: ^2.0.15
+  
+  # File system
+  permission_handler: ^10.4.3
+  file_picker: ^5.3.2
+  
+  # Metadata
+  flutter_audio_query: ^1.0.0
+  audiotagger: ^2.2.1
+  
+  # UI
+  cached_network_image: ^3.2.3
+  flutter_slidable: ^3.0.0
+```
+
+---
+
+## 🎨 Design Philosophy
+
+AndPlayer is built with **accessibility and simplicity** at its core:
+
+- ♿ **Accessibility First** - Large buttons, clear labels, screen reader support
+- 🎯 **User-Centric** - Intuitive navigation, minimal learning curve
+- ⚡ **Performance** - Efficient scanning, smooth animations, low battery usage
+- 🎨 **Clean Design** - Material Design principles, consistent UI
+- 🔒 **Privacy** - No internet required, no data collection, offline-only
+
+
+---
+
+## 🐛 Known Issues
+
+- Large libraries (>5000 songs) may take time to scan on first launch
+- Album art extraction works best with properly tagged files
+- Background playback requires notification permissions
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+- Improve documentation
+
+---
+
+
+## 👨‍💻 Author
+
+**Ahtisham**  
+- GitHub: [@smokhood](https://github.com/smokhood)
+- Email: ahtishamravian206@gmail.com
+
+---
+
+## 🙏 Acknowledgments
+
+- Flutter community for amazing packages
+- Material Design for UI guidelines
+- [just_audio](https://pub.dev/packages/just_audio) for audio playback engine
+- Open-source contributors
+
+---
+
+## 📱 Download
+
+Currently in development. Stay tuned for releases!
+
+---
+
+**⭐ If you enjoy AndPlayer, please give it a star!**
+
+---
+
+*Making music accessible, one play at a time* 🎵
